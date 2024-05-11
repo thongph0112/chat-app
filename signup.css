@@ -139,6 +139,12 @@ body {
 }
 
 
+.content > .container > .div-form > .header-form {
+    text-align: center;
+    background-color: black;
+}
+
+
 
 .content > .container > .div-form > .header > .choose-language > #choose-language {
     height: 100%;
