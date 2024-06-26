@@ -1,0 +1,542 @@
+[
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66459114a8a2c2d6b04f1362",
+        "FullName": "",
+        "Username": "123",
+        "isOnline": true
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66458141a8a2c2d6b04f0b8e",
+        "FullName": "Hiếu PC",
+        "Username": "3",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "664729c04583a93901aeaa50",
+        "FullName": "gode",
+        "Username": "yasuo",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6647297c4583a93901aea8e7",
+        "FullName": "gode",
+        "Username": "admin1",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642e48f3a754e95b01eb366",
+        "FullName": "Nguyễn Văn Thắng",
+        "Username": "ThangNVm-test",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645dc62a8a2c2d6b04fa585",
+        "FullName": "Th?ng",
+        "Username": "1234",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645d7a8a8a2c2d6b04f9e7b",
+        "Username": "sdfdg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645d7c0a8a2c2d6b04f9e7e",
+        "Username": "dfvgdffd",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cbcfa8a2c2d6b04f8c03",
+        "Username": "dfgdg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66472a144583a93901aeb7b1",
+        "FullName": "yasuo summoner rif",
+        "Username": "nickname",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645d6f3a8a2c2d6b04f9e75",
+        "Username": "23dfsdf",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6646cd94a8a2c2d6b04fe168",
+        "Username": "quansdfsdf",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cf0fa8a2c2d6b04f8f49",
+        "Username": "sdfd",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6614f58603ea7381fe1f42a8",
+        "FullName": "Khắc Công",
+        "Username": "admin",
+        "Avatar": "/avatar/4344930c-0c01-436c-8784-4917f5147660.jpg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645ba61a8a2c2d6b04f382e",
+        "FullName": "Th?ng",
+        "Username": "giangNTHe",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66459175a8a2c2d6b04f13d0",
+        "FullName": "",
+        "Username": "123213",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645bc52a8a2c2d6b04f3a06",
+        "FullName": "Thắng",
+        "Username": "thangnvm3",
+        "isOnline": false
+    },
+    {
+        "Content": "uk",
+        "Files": [],
+        "Images": [],
+        "isSend": 1,
+        "FriendID": "661509e1a6041ace7f2f4cee",
+        "FullName": "Thắng Nguyễn",
+        "Username": "thangnvm",
+        "Avatar": "/avatar/bbd1a49c-abcb-4040-a43b-caa239845168.png",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645bca3a8a2c2d6b04f4921",
+        "FullName": "Thắng",
+        "Username": "thangnvm14",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645b60ea8a2c2d6b04f33ad",
+        "Username": "thangnvm4",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645ccaea8a2c2d6b04f8c0b",
+        "Username": "dfgfdg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cb9fa8a2c2d6b04f8c00",
+        "Username": "sdfgrg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6646b459a8a2c2d6b04fa866",
+        "FullName": "Thành Đạo",
+        "Username": "daopt",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66456fd1a8a2c2d6b04eff75",
+        "FullName": "",
+        "Username": "voluong2004",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "663350673dc93b90e1096373",
+        "FullName": "Pham Hong Nguyen ",
+        "Username": "nguyen",
+        "Avatar": "/avatar/bd77084d-f9d7-4341-b947-bdff5ceb9da0.jpg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "664590f4a8a2c2d6b04f131b",
+        "FullName": "",
+        "Username": "12313",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66458ee0a8a2c2d6b04f12c4",
+        "FullName": "",
+        "Username": "23121",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "664584b2a8a2c2d6b04f0d63",
+        "FullName": "Hiếu PC",
+        "Username": "13",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cb1da8a2c2d6b04f8b86",
+        "Username": "quan",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cb6ca8a2c2d6b04f8bf1",
+        "Username": "sdfsdf",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642e1583a754e95b01eb020",
+        "FullName": "cscsa",
+        "Username": "duylinh021",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642e9f6768e0137d35541fe",
+        "FullName": "duylinh0211",
+        "Username": "duylinh0211a",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642cf8a3a754e95b01eaf6b",
+        "FullName": "",
+        "Username": "thanh",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "664326c5a8a2c2d6b04eb29a",
+        "FullName": "Duy Linh",
+        "Username": "duylinh2003",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cb55a8a2c2d6b04f8bde",
+        "Username": "tytry",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645cf28a8a2c2d6b04f8f4c",
+        "Username": "dfgdfg",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6618b4d42769654649926858",
+        "FullName": "Thắng Mạnh",
+        "Username": "manhdt",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642c459e3599046396d1aa7",
+        "FullName": "Thanh Dao",
+        "Username": "daopc",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66458f25a8a2c2d6b04f12c7",
+        "FullName": "",
+        "Username": "111",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66443c37a8a2c2d6b04ecbcc",
+        "FullName": "",
+        "Username": "luong",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645b494a8a2c2d6b04f3282",
+        "FullName": "Thắng",
+        "Username": "thangnvm1",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642e3a13a754e95b01eb1f1",
+        "FullName": " asxs ",
+        "Username": "duylinh0211",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642be1ce3599046396d19f6",
+        "FullName": "",
+        "Username": "dao",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645b515a8a2c2d6b04f32ab",
+        "FullName": "Thắng",
+        "Username": "thangnvm2",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "661650061243bcdf150434e1",
+        "FullName": "Hiếu PC",
+        "Username": "hieupc",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "663dd7a9e3599046396ce59f",
+        "FullName": "Thông",
+        "Username": "thongph",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "663ed146e3599046396ce7f7",
+        "FullName": "test ",
+        "Username": "test",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "663dd1aae3599046396ce56c",
+        "FullName": "username",
+        "Username": "hao",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "664570cea8a2c2d6b04eff7d",
+        "FullName": "",
+        "Username": "2",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645ba60a8a2c2d6b04f382b",
+        "FullName": "Thắng",
+        "Username": "thangnvm5",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645c3b5a8a2c2d6b04f7906",
+        "FullName": "Th?ng",
+        "Username": "GiangNTHe",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6645904ea8a2c2d6b04f12d8",
+        "FullName": "",
+        "Username": "2222",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "6642f5d2a8a2c2d6b04e8c54",
+        "FullName": "a",
+        "Username": "duylinh0211aa",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66447a1ea8a2c2d6b04eecae",
+        "FullName": "",
+        "Username": "thongp",
+        "isOnline": false
+    },
+    {
+        "Content": "",
+        "Files": null,
+        "Images": null,
+        "isSend": 0,
+        "FriendID": "66445306a8a2c2d6b04ecd73",
+        "FullName": "",
+        "Username": "ThanhLVd",
+        "isOnline": false
+    }
+]

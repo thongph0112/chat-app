@@ -1,0 +1,59 @@
+/* Add your styles here */
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.right-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversation {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-mess {
+    display: flex;
+    padding: 10px;
+}
+
+.input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.friend-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.friend-item:hover {
+    background-color: #f0f0f0;
+}

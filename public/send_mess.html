@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="header">
+                <!-- Search bar and other elements -->
+            </div>
+            <div class="content" id="friendList">
+                <!-- Friend list -->
+                <div class="friend-item" data-friend-id="123" onclick="navigateToFriendChat(this)">Friend 123</div>
+                <div class="friend-item" data-friend-id="456" onclick="navigateToFriendChat(this)">Friend 456</div>
+                <!-- Add more friend items as needed -->
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="header">
+                <!-- Chat header elements -->
+            </div>
+            <div class="conversation" id="conversation">
+                <!-- Conversation messages -->
+            </div>
+            <div class="input-mess">
+                <div class="input">
+                    <input type="text" id="messageInput" placeholder="Type a message...">
+                </div>
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
