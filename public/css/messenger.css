@@ -1,0 +1,725 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    width: 100%;
+    height: 100%;
+}
+.img-mess-type {
+    position: relative;
+    display: inline-block;
+}
+
+.image-caption {
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.img-mess-type:hover .download-menu {
+    display: block;
+}
+
+.download-menu {
+    display: none;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 50%;
+    left: -50px; /* Adjust this value as needed to position the menu correctly */
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.download-menu-left {
+    left: 100%;
+    
+}
+
+
+.download-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.download-menu a:hover {
+    background-color: #ddd;
+}
+
+
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    z-index: 1000;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-item img {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.menu-item span {
+    flex-grow: 1;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+#user-info>img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+}
+
+.avatar-container {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar-container img.active {
+    border: 2px solid green;
+    /* Optional: add a green border to indicate active status */
+}
+
+.active-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* Optional: to give a small white border around the indicator */
+}
+
+.inactive-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* Optional: to give a small white border around the indicator */
+}
+
+.name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.left-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* border-ri: 1px solid black; */
+    margin-bottom: 0;
+}
+
+.left-container>.header {
+    margin: 0;
+    /* width: 360px; */
+    height: 60px;
+    padding: 9px 16px 9px 11px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.left-container>.header>.search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    width: Fixed (283px)px;
+    height: Hug (40px)px;
+    top: 10px;
+    left: 61px;
+    padding: 8px 8px 8px 16px;
+    gap: 8px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    border: 1px solid #DBDDE1;
+    opacity: 0px;
+}
+
+.left-container>.header>.search>input {}
+
+.left-container>.header>.search>input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.left-container>.header>.search>img {
+    width: 24px;
+    height: 24px;
+    padding: 3.26px 3.26px 3.25px 3.25px;
+    gap: 0px;
+    opacity: 0px;
+}
+#imagePreview {
+     position: absolute;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+    /* top: -200px; */
+    bottom: 0px;
+    left: 0;
+    z-index: 10;
+    border: none;
+    /* padding: 5px; */
+    background-color: transparent;
+      /* width: 100%;  */
+    height: 100px;   
+
+    margin-left: 20px;
+
+    
+    
+}
+.sendImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.sendImage > img{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    position: relative;
+    bottom: 50px;
+}
+
+.close-icon {
+    position: absolute;
+    top: -45px;
+    right: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#formSendMess {
+    position: relative;
+    bottom: 0;
+    padding: 0;
+}
+
+.left-container>.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Set the maximum height of the list */
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    border: 1px solid #ccc;
+    /* Optional: add a border */
+    padding: 10px;
+    /* Optional: add padding */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#messegeList {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#friendList {
+    /* background-color: rebeccapurple;
+    position: absolute;
+    display: flex;
+    flex-direction: column; */
+    display: none;
+}
+
+.left-container>.content>.mess-info {
+    /* width: 100%; */
+    height: Hug (72px)px;
+    padding: 11.5px 8px 11.5px 8px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    
+    align-items: center;
+}
+
+.left-container>.content>.mess-info>img {
+    width: 49px;
+    height: 49px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+}
+
+.mess-info-child {
+
+    /* width: 100%; */
+    flex: 1;
+}
+img.mess-status{
+    /* background-color: red; */
+
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    /* mess-status */
+
+}
+
+
+.left-container>.content>.mess-info>.mess-info-child>.name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.brief {
+    /* float: left; */
+    width: 100%;
+    box-sizing: content-box;
+    height: 18px;
+    top: -1px;
+    display: flex;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 20px;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.brief>.brief-mess {
+    flex-grow: 1;
+}
+
+.left-container>.content>.mess-info>.mess-info-child>.time {
+    /* margin-right: 0; */
+}
+
+.right-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    bottom: 0;
+    /* float: right; */
+}
+
+.right-container>.header {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+}
+
+.right-container>.header>img {
+    margin-left: 10px;
+}
+
+.right-container>.header>.header-info {
+    margin-left: 10px;
+}
+
+.right-container>.conversation {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 10%;
+    position: relative;
+    /* box-sizing: border-box; */
+    flex-grow: 1;
+}
+
+.right-container>.conversation {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    max-height: calc(100% - 150px);
+    /* Adjust as needed */
+    position: relative;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.stack-mess {
+    width: 100%;
+    box-sizing: border-box;
+    height: Hug (62px)px;
+    /* padding: 4px 8px 4px 8px; */
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+}
+
+.no-mess-stack img {
+    max-width: 100px;
+    /* Adjust the size as needed */
+    margin-bottom: 10px;
+    width: 95px;
+    height: 95px;
+    top: 9.5px;
+    left: 9.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.no-mess-stack span {
+    font-size: 16px;
+    /* Adjust font size as needed */
+    color: #555;
+    /* Adjust color as needed */
+}
+
+.right-container>.conversation>.stack-mess>.avatar-container {
+    width: Hug (36px)px;
+    height: Fill (54px)px;
+    padding: 0px 0px 18px 0px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.message-container {
+    width: Hug (252px)px;
+    height: Hug (50px)px;
+    gap: 2px;
+    opacity: 0px;
+    /* background: #E9EAED; */
+    display: flex;
+    flex-direction: column;
+    /* background: #E0F0FF; */
+}
+
+
+.message-type {
+    border-radius: 18px 18px 18px 2px;
+    opacity: 1; /* Adjusted opacity to show the element */
+    background: #E9EAED;
+    display: flex;
+    align-items: flex-start; /* Changed from 'left' to 'flex-start' for alignment */
+    flex-direction: column;
+    max-width: 300px; /* Set a maximum width for the bubble */
+    word-wrap: break-word; /* Ensure long words break to the next line */
+    /* overflow: hidden; Hide any content that overflows vertically */
+}
+
+.message-type .mess {
+    display: block; /* Ensure the message content is displayed as a block */
+    overflow: hidden; /* Hide any content that overflows */
+    max-width: 100%; /* Ensure the content does not exceed the parent's width */
+}
+
+
+
+
+.message-container>img {
+    margin: 0;
+    padding: 0;
+    border-image: fill;
+    object-fit: cover;
+}
+
+.message-container>.time {
+    display: inline;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #747881;
+    box-sizing: content-box;
+    background: white;
+}
+
+.img-mess-type {
+    width: 100%;
+}
+
+.img-mess-type>img {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 188px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 18px;
+}
+
+.mess {
+    padding: 8px 16px;
+}
+
+.right-stack {
+    display: flex;
+    flex-direction: row-reverse;
+    /* position: relative; */
+}
+
+.right-mess {
+    border-radius: 18px 18px 2px 18px;
+    background: #E0F0FF;
+}
+
+.right-time {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the time to the right side */
+    margin-left: auto;
+    /* Push the time to the right */
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #747881;
+    box-sizing: content-box;
+    background: white;
+}
+
+.input-mess {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    /* Set a fixed height for the input area */
+    padding: 8px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* bottom: 0; */
+    bottom: -80px;
+}
+
+.input-mess>.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: Fill (40px)px; */
+    height: 10px;
+
+    padding: 4px 4px 4px 16px;
+    gap: 8px;
+    /* border-radius: 20px; */
+    /* border: 1px solid; */
+    /* border: 1px solid #DBDDE1; */
+    opacity: 0px;
+    flex-grow: 1;
+}
+.input {
+    outline: none;
+    border: none;
+    height: 100%;
+
+}
+.txtarea-mess {
+    flex-grow: 1;
+    padding: 0px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 5px; */
+    resize: none;
+    box-sizing: border-box;
+
+    outline: none;
+    height: 50px; 
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    position: relative;
+    
+
+}
+
+.emojionearea .emojionearea-editor{
+    min-height: 40px;
+    max-height: 100%;
+    width: 100%;
+    outline: none;
+   
+    padding: 4px 4px 4px 16px;
+    gap: 8px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+/* Override emojionearea styles */
+.emojionearea, .emojionearea-editor {
+    
+    padding: 4px 4px 4px 16px;
+    gap: 8px;
+    border-radius: 20px ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+
+
+.input-mess>.input>input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+#messageInput{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    height: 10px;
+   
+}
+.mess-info:hover {
+    background-color: #DBDDE1;
+}
+
+.image-upload>input {
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+
+/* Hide the original file input */
+
+input[type="file"] {
+    display: none;
+}
+#sendButton{
+    border: none;
+}
+
+/* Style the label to look like an image */
+
+label[for="fileInput"] {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* Style the image inside the label */
+
+label[for="fileInput"] img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.no-mess-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-mess-console {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+
+
+

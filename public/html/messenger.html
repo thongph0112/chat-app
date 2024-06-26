@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/moment-timezone-with-data.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.css" integrity="sha512-0Nyh7Nf4sn+T48aTb6VFkhJe0FzzcOlqqZMahy/rhZ8Ii5Q9ZXG/1CbunUuEbfgxqsQfWXjnErKZosDSHVKQhQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/emojionearea.css" integrity="sha512-0Nyh7Nf4sn+T48aTb6VFkhJe0FzzcOlqqZMahy/rhZ8Ii5Q9ZXG/1CbunUuEbfgxqsQfWXjnErKZosDSHVKQhQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel = "stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+    <script src="../js/sweetalert.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/messenger.css">
+    <link rel="stylesheet" href="/css/font-awesome.css">
+    <!--  -->
+    <title>Messenger</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="header">
+                <div class="option" id="option">
+                    <img src="../resources/Mouse-hover button.svg" alt="Menu Button">
+                    <div class="menu" id="menu">
+                        
+                        <div class="menu-item" id ="user-info">
+                            
+                        </div>
+                        
+                        <!-- Hidden file input for avatar upload -->
+                        <input type="file" id="avatarInput" style="display: none;">
+                        <div class="menu-item">
+                            <img src="..\resources\Accessories\24\Shape.png" alt="Avatar">
+                            <span>Nhắc đến bạn</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="..\resources\Accessories\24\Union-1.png" alt="Avatar">
+                            <span>Tạo nhóm</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="..\resources\Accessories\24\Union.png" alt="Avatar">
+                            <span>Giao diện tối</span>
+                        </div>
+                        <div class="menu-item" id="logout">
+                            <img src="..\resources\Accessories\24\Vector (Stroke).png" alt="Avatar">
+                            <span>Đăng xuất</span>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="search">
+                    <img src="..\resources\search.svg">
+                    <input type="text" placeholder="Tìm kiếm" id="searchInput">
+                    
+                </div>
+            </div>
+            <div class="content" id="messageList">
+
+            </div>
+            <div class="content" id="friendList">
+            </div>
+
+        </div>
+        <div class="right-container">
+           
+            <div class="header" id="header-info-right">
+
+            </div>
+            <div class="conversation" id="conversation">
+                <div class="stack-mess">
+                    <div class="avatar-container">
+                        <img src="..\resources\Profile pic.svg">
+                    </div>
+                    <div class="message-container">
+                        <div class="message-type">
+                            <div class="mess">
+                                <span>sage-container
+                                    div class="message-type"></span>
+                            </div>
+                        </div>
+                        <div class="time">
+                            2:14 PM
+                        </div>
+                    </div>
+                </div>
+                <div class="stack-mess right-stack">
+
+                    <div class="message-container">
+                        <div class="message-type  right-mess">
+                            <div class="mess">
+                                <span>sage-container
+                                    div class="message-type"></span>
+                            </div>
+
+                        </div>
+                        <div class="time right-time">
+                            <span>2:14 PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stack-mess">
+                    <div class="avatar-container">
+                        <img src="..\resources\Profile pic.svg">
+                    </div>
+                    <div class="message-container">
+                        <div class="message-type">
+                            <div class="mess">
+                                <span>sage-container
+                                div class="message-type"></span>
+                            </div>
+                        </div>
+                        <div class="message-type">
+                            <div class="mess">
+                                <span>sage-container
+                                    div class="message-type"></span>
+                            </div>
+                        </div>
+                        <div class="time">
+                            2:14 PM
+                        </div>
+                    </div>
+
+                </div>
+                <div class="stack-mess right-stack">
+
+                    <div class="message-container">
+
+                        <div class="message-type  right-mess">
+                            <div class="img-mess-type" >
+                                <img src="..\resources\Image.svg">
+                            </div>
+                            <div class="mess"></div>
+                        </div>
+                        <div class="time right-time">
+                            <span>2:14 PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stack-mess">
+
+                </div>
+            </div>
+            
+            <div id="formSendMess">
+                <!-- <form > -->
+                    <div id="imagePreview" >
+                        
+                    </div>
+                
+                    <div class="input-mess">
+                        
+                        <input type="file" id="fileInput" style="display: none;" onchange="previewImage(event)" multiple>
+                        <label for="fileInput">
+                            <img id="fileImage" src="..\resources\Left buttons.svg" alt="Click to choose file">
+                        </label>
+                        <div class="input txtarea-mess">
+                            <textarea class="txtarea-mess" id="messageInput" placeholder="Nhập tin nhắn"></textarea>
+                        </div>
+                        <button  id="sendButton">
+                            <img src="..\resources\Right button (1).svg">
+                        </button>
+                    </div>
+                    <!-- Preview div for the selected image -->
+                    
+                <!-- </form> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../js/api.js"></script>
+<script src="../js/check_token.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/sign.js"></script>
+<script src="../js/emojionearea.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js" integrity="sha512-ZuxZDe3rBE+OMV5ki0VZC2MSCp6NaoTiDHvYenVag+L/Agxb+MMKHZqVNXFXYX/ruuRofd5setKzyCupZCURvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function() {
+        Element.prototype.remove = function() {
+    this.parentElement.removeChild(this);
+}
+NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+    for(var i = this.length - 1; i >= 0; i--) {
+        if(this[i] && this[i].parentElement) {
+            this[i].parentElement.removeChild(this[i]);
+        }
+    }
+}
+        $("#messageInput").emojioneArea({
+            pickerPosition: "top",
+            filtersPosition: "top",
+            tonesStyle: "checkbox",
+            shortnames: true,
+            tones: false,
+            search: false,
+            placeholder: "Nhập tin nhắn",
+            emojiPlaceholder: ":smile_cat:"
+        });
+
+        $("#sendButton").click(function(e) {
+            $(".emojionearea-editor").html('');
+        });
+        
+    //     $('.imgConversation').click(function(){
+    //     var srcValue = $(this).attr('src');
+        
+    // });
+
+        // $('.imgConversation').on('click', function() {
+        //         // Get the src attribute of the clicked image
+                
+        //         var imageSrc = $(this).attr('src');
+        //         // alert('Image clicked! Source: ' + imageSrc);
+
+        //         // Change the inner HTML of the name header
+        //         // $('#6614f58603ea7381fe1f42a8 .name.header').html('New Name');
+
+        //         // Open a new window with the image source URL
+        //         window.open(imageSrc, '_blank');
+        //     });
+
+    });
+   
+    
+    function previewImage(event) {
+        if (!navigator.onLine) {
+                    event.preventDefault();
+                    swal('Lỗi', 'You are offline. This action cannot be performed', 'error');
+                    document.getElementById('fileInput').value = '';               
+        }else {
+            var reader = new FileReader();
+    var fileId = 'file-' + Date.now() + '-' + i;
+    reader.onload = function() {
+        var img = new Image();
+        img.src = reader.result;
+        img.onload = function() {
+            var width = 100;
+            var height = 100;
+            var output = document.getElementById('imagePreview');
+            output.innerHTML += `<div id ="${fileId}" class = "sendImage"><img src="${reader.result}" alt="Image Preview" /> <span class="close-icon" image-id = ${fileId}>&times;</span></div>`;
+
+            output.style.display = 'flex';
+
+
+            // Add event listener to the close icon
+          
+            
+        }
+    }
+    reader.readAsDataURL(event.target.files[0]);
+
+        }
+    
+}
+ // Add event listener to the close icon
+//  document.querySelector('.imgConversation').addEventListener('click', function() {
+                
+//                 imgSrc = this.getAttribute('src');
+//                 
+//                 // fileInput = document.getElementById(fileId);
+//                 // location.href = imgSrc;
+//                 window.open(imgSrc);
+                
+//                 // document.getElementById('fileInput').value = '';
+//             });
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(function(error) {
+            console.log('Service Worker registration failed:', error);
+        });
+}
+</script>
+
